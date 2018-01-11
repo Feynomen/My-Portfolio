@@ -4,13 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
 </head>
 
 <body>
     <a href="content">Skip to main content</a>
-    <header> 
-        <img src="img/logo.png" alt="my portfolio">
+
+    <header>
+        <a href="index.html">
+            <img src="img/logo.png" alt="My portfolio" width="60">
+        </a>
         <nav>
 
             <ul>
@@ -33,8 +38,8 @@
         </nav>
     </header>
 
-    <section id="home">
-        <h1>Hi, I am Maxime Boczulak.</h1>
+    <section id="home" class="home">
+        <h1>Hi, I am <strong>Maxime Boczulak</strong></h1>
         <p>I'm a Full-stack Web Developer.</p>
         <h2>Discover</h2>
         <p>Tell me about your project and we brainstorm together the features to create a plan for your product to launch.</p>
@@ -45,7 +50,7 @@
         <h2>Be Ready</h2>
         <p>We deploy your product and now your website is ready to get the traction. Get out there and grow your audience.</p>
     </section>
-    <section id="skills">
+    <section id="skills" class="skills">
         <h2>MY SKILLS</h2>
         <ul>
             <li>HTML80 % </li>
@@ -58,7 +63,7 @@
             <li>jQuery 70 %</li>
         </ul>
     </section>
-    <section id="about-me">
+    <section id="about-me" class="about-me">
         <h2>ABOUT ME</h2>
         <p>My name is Aneta Webbie. I am a full-stack web developer and enjoy learning new trends. I am developing user interfaces
             in JavaScript and React and backend of my projects in PHP and Laravel. I am open to learning new technologies
@@ -66,7 +71,7 @@
             across the world but currently I am based in Prague, Czech Republic. I like cats, gaming, and snowboarding. If
             I do not develop, you can also meet me trekking in the mountains.</p>
     </section>
-    <section id="portfolio">
+    <section id="portfolio" class="portfolio">
         <h2> MY PORTFOLIO</h2>
         <p></p>
         <h3>Website for a coffee shop.</h3>
@@ -87,17 +92,22 @@
         <h3>Description of your Final Project. </h3>
         <p>Description of your Final Project, including the tech stack.</p>
         Explore Get in touch and let's do something great together.
+    <section class="find">
         <p>FIND ME HERE</p>
     </section>
-    <section id="contact">
+    </section>
+    <section id="contact" class="contact">
         <h3>CONTACT ME</h3>
         First Name * Last Name * Email * Phone Send my message My message *
+    </section>
+    <section class="end">
         <h3>NICE TO MEET YOU!</h3>
         <p>
             Let's work together to make your product stand out. I create beautiful and functional websites. I work with my clients step
             by step from the idea stage until the fully functioning web application. Copyright @Aneta Webbie 2018 Final Project
             to Get highlighted. The progress bars to get dynamically filled.</p>
-    </section>
+        </section>
+    
 </body>
 
 </html>
