@@ -38,6 +38,7 @@ section {
     padding: 0.5rem;
     margin: 0%;
     background-image:url("../img/northern-lights.jpg");
+    background-repeat:no-repeat;
 
 }
 
