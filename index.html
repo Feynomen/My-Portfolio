@@ -13,45 +13,53 @@
     <a href="content">Skip to main content</a>
 
     <header>
-        <a href="index.html">
-            <img src="img/logo.png" alt="My portfolio" width="60">
+        <a href="index.html" class="logo-link">
+            <img src="img/logo.png" alt="My portfolio" width="60px">
         </a>
         <nav>
 
             <ul>
                 <li>
-                    <a href="#home">home</a>
+                    <a href="#home">Home</a>
                 </li>
                 <li>
-                    <a href="#skills">skills</a>
+                    <a href="#skills">Skills</a>
                 </li>
                 <li>
-                    <a href="#portfolio">portfolio</a>
+                    <a href="#portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#about-me">about me</a>
+                    <a href="#about-me">About me</a>
                 </li>
                 <li>
-                    <a href="#contact">contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
-
-    <section id="home" class="home">
-
+    <div class="jumbotron">
         <h1>Hi, I am
             <strong>Maxime Boczulak</strong>
+            <p>I'm a Full-stack Web Developer.</p>
         </h1>
-        <p>I'm a Full-stack Web Developer.</p>
-        <h2>Discover</h2>
-        <p>Tell me about your project and we brainstorm together the features to create a plan for your product to launch.</p>
-        <h2>Design</h2>
-        <p>We design the wireframe and agree together how to create the best experience for your users to present your brand.</p>
-        <h2>Deploy</h2>
-        <p>We protoype and develop your product. We work together intensily to incorporate your feedback.</p>
-        <h2>Be Ready</h2>
-        <p>We deploy your product and now your website is ready to get the traction. Get out there and grow your audience.</p>
+    </div>
+    <section id="home" class="section section--dark section--promo">
+        <article>
+            <h2>Discover</h2>
+            <p>Tell me about your project and we brainstorm together the features to create a plan for your product to launch.</p>
+        </article>
+        <article>
+            <h2>Design</h2>
+            <p>We design the wireframe and agree together how to create the best experience for your users to present your brand.</p>
+        </article>
+        <article>
+            <h2>Deploy</h2>
+            <p>We protoype and develop your product. We work together intensily to incorporate your feedback.</p>
+        </article>
+        <article>
+            <h2>Be Ready</h2>
+            <p>We deploy your product and now your website is ready to get the traction. Get out there and grow your audience.</p>
+        </article>
     </section>
     <section id="skills" class="skills">
         <h2>MY SKILLS</h2>
@@ -66,13 +74,20 @@
             <li>jQuery 70 %</li>
         </ul>
     </section>
-    <section id="about-me" class="about-me">
+    <section id="about-me">
         <h2>ABOUT ME</h2>
-        <p>My name is Aneta Webbie. I am a full-stack web developer and enjoy learning new trends. I am developing user interfaces
-            in JavaScript and React and backend of my projects in PHP and Laravel. I am open to learning new technologies
-            and enjoy working with people who are as passionate about all web-related as me. I have worked for clients all
-            across the world but currently I am based in Prague, Czech Republic. I like cats, gaming, and snowboarding. If
-            I do not develop, you can also meet me trekking in the mountains.</p>
+        <div class="about">
+            <div class="about-image">
+                <img src="img/Moi.jpg">
+            </div>
+            <div class="about-text">
+                <p>My name is Aneta Webbie. I am a full-stack web developer and enjoy learning new trends. I am developing user
+                    interfaces in JavaScript and React and backend of my projects in PHP and Laravel. I am open to learning
+                    new technologies and enjoy working with people who are as passionate about all web-related as me. I have
+                    worked for clients all across the world but currently I am based in Prague, Czech Republic. I like cats,
+                    gaming, and snowboarding. If I do not develop, you can also meet me trekking in the mountains.</p>
+            </div>
+        </div>
     </section>
     <section id="portfolio" class="portfolio">
         <h2> MY PORTFOLIO</h2>
